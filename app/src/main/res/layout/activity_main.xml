@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    android:id="@+id/background_layout"
+    android:background="?lBackground"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        >
+        
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:childDivider="?mLightColor"
+        android:divider="?mTextColorSecond"
+        android:dividerHeight="1dp"
+
+
+
+
+        >
+
+
+    </ExpandableListView>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="onClickTryActivity"
+        />
+
+</RelativeLayout>

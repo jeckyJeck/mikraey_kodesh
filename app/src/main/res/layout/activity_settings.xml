@@ -1,0 +1,481 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle|end"
+	android:background="?lBackground"
+    tools:context=".Settings" >
+
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="?mLightColor" />
+
+	<TextView
+		android:layout_marginHorizontal="15dp"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="?mTextColorSecond"
+		android:textStyle="bold"
+		android:text="כללי"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp">
+
+		<Switch
+			android:id="@+id/switchLastLocation"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickLastLocation"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical"
+			android:onClick="onClickLastLocation">
+
+			<TextView
+				android:onClick="onClickLastLocation"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="דלג למיקום אחרון"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:onClick="onClickLastLocation"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_weight="1.3"
+				android:gravity="center_vertical"
+				android:paddingEnd="20dp"
+				android:paddingRight="20dp"
+				android:text="בפתיחת האפליקציה דלג למיקום האחרון בו הייתי"
+				android:textColor="?mTextColorSecond"
+				android:textSize="13sp" />
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/tvDarkMode"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight="1"
+				android:focusable="true"
+				android:clickable="true"
+				android:onClick="onClickBlackBackground"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="הפעל מצב כהה"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold"
+				 />
+
+		</LinearLayout>
+
+
+		<Switch
+			android:id="@+id/switchDarkMode"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickBlackBackground"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+	</RelativeLayout>
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="?mLightColor" />
+
+	<TextView
+		android:layout_marginHorizontal="15dp"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="?mTextColorSecond"
+		android:textStyle="bold"
+		android:text="מסך תוכן הספר"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp">
+
+		<Switch
+			android:id="@+id/switchSleepScreen"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickSleepScreen"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+
+		<LinearLayout
+			android:onClick="onClickSleepScreen"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical">
+
+
+			<TextView
+				android:onClick="onClickSleepScreen"
+				android:id="@+id/textviewtitle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:paddingRight="10dp"
+				android:paddingEnd="10dp"
+				android:text="ביטול החשכת מסך"
+				android:textSize="17dp"
+				android:textStyle="bold"
+				android:textColor="?mTextColorMain"/>
+			<TextView
+				android:onClick="onClickSleepScreen"
+				android:id="@+id/textviewdescribe"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:gravity="center_vertical"
+				android:paddingRight="20dp"
+				android:paddingEnd="20dp"
+				android:text="בטל כיבוי אוטומטי של המסך בעת שימוש באפליקציה"
+				android:layout_weight="1.3"
+				android:textSize="13sp"
+				android:textColor="?mTextColorSecond"/>
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp">
+
+		<Switch
+			android:id="@+id/switchNotesState"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickNoteState"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+
+		<LinearLayout
+			android:onClick="onClickNoteState"
+			android:id="@id/switchNotesState"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical"
+			>
+
+			<TextView
+				android:onClick="onClickNoteState"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="הצג הערות בחלון קבוע"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:onClick="onClickNoteState"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_weight="1.3"
+				android:gravity="center_vertical"
+				android:paddingEnd="20dp"
+				android:paddingRight="20dp"
+				android:text="כאשר מסומן, הערות יופיעו בחלון בתחתית המסך, במקום בחלון קופץ"
+				android:textColor="?mTextColorSecond"
+				android:textSize="13sp" />
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp">
+
+		<Switch
+			android:id="@+id/switchAssistButtons"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickAssistButtons"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+
+		<LinearLayout
+			android:onClick="onClickAssistButtons"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:onClick="onClickAssistButtons"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="הצג כפתורי עזר בתחתית המסך"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:onClick="onClickAssistButtons"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_weight="1.3"
+				android:gravity="center_vertical"
+				android:paddingEnd="20dp"
+				android:paddingRight="20dp"
+				android:text="כאשר מסומן, כפתורי העזר של מסך תוכן הספר יופיעו בתחתית המסך. מסומן כברירת מחדל."
+				android:textColor="?mTextColorSecond"
+				android:textSize="13sp" />
+		</LinearLayout>
+
+	</RelativeLayout>
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp">
+
+		<Switch
+			android:id="@+id/switchVolumeScroll"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_centerVertical="true"
+			android:checked="true"
+			android:onClick="onClickVolumeScroll"
+			android:paddingStart="10dp"
+			android:paddingLeft="10dp"
+			android:textAppearance="@style/Theme.AppCompat.Light"
+			android:theme="@style/Theme.AppCompat.Light" />
+
+
+		<LinearLayout
+			android:onClick="onClickVolumeScroll"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:onClick="onClickVolumeScroll"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="גלילה באמצעות כפתורי שמע"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:onClick="onClickVolumeScroll"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_weight="1.3"
+				android:gravity="center_vertical"
+				android:paddingEnd="20dp"
+				android:paddingRight="20dp"
+				android:text="גלול מעלה ומטה באמצעות כפתורי הגברת והחלשת הווליום. מסומן כברירת מחדל."
+				android:textColor="?mTextColorSecond"
+				android:textSize="13sp" />
+		</LinearLayout>
+
+	</RelativeLayout>
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="?mLightColor" />
+
+	<TextView
+		android:layout_marginHorizontal="15dp"
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="?mTextColorSecond"
+		android:textStyle="bold"
+		android:text="צור קשר"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="5dp"
+		android:layout_marginVertical="10dp"
+		android:orientation="horizontal">
+
+
+		<LinearLayout
+			android:id="@+id/fdbkLayout"
+			android:layout_width="match_parent"
+			android:layout_height="48dp"
+			android:layout_marginLeft="10dp"
+			android:onClick="onClickAssistButtons"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:gravity="center_vertical"
+				android:onClick="onClickFeedback"
+				android:paddingEnd="10dp"
+				android:paddingRight="10dp"
+				android:text="משוב"
+				android:textColor="?mTextColorMain"
+				android:textSize="17dp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_weight="1.3"
+				android:gravity="center_vertical"
+				android:onClick="onClickFeedback"
+				android:paddingEnd="20dp"
+				android:paddingRight="20dp"
+				android:text="דיווח על שגיאות, רעיונות והצעות לשיפור"
+				android:textColor="?mTextColorSecond"
+				android:textSize="13sp" />
+
+
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/fdbkInnerLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/fdbkLayout"
+			android:visibility="gone"
+			android:orientation="horizontal">
+			<Button
+				android:onClick="onClickBugBtn"
+				android:id="@+id/appBugsBtn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="דיווח על שגיאה באפליקציה"
+				android:layout_weight="1"/>
+			<Button
+				android:onClick="onClickFdbkBtn"
+				android:id="@+id/appFdbkBtn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="פניות בנוגע לאפליקציה"
+				android:layout_weight="1"/>
+			<Button
+				android:onClick="onClickFdbkBtn"
+				android:id="@+id/bookFdbkBtn"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="פניות בנוגע לתוכן הספר"
+				android:layout_weight="1"/>
+
+
+		</LinearLayout>
+
+	</RelativeLayout>
+<!--	<RelativeLayout-->
+<!--		android:layout_width="match_parent"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginHorizontal="5dp"-->
+<!--		android:layout_marginVertical="10dp"-->
+<!--		android:orientation="horizontal">-->
+
+<!--		<TextView-->
+<!--			android:layout_width="match_parent"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:layout_weight="1"-->
+<!--			android:gravity="center_vertical"-->
+<!--			android:onClick="onClickAbout"-->
+<!--			android:paddingEnd="10dp"-->
+<!--			android:paddingRight="10dp"-->
+<!--			android:text="אודות"-->
+<!--			android:textColor="?mTextColorMain"-->
+<!--			android:textSize="17dp"-->
+<!--			android:textStyle="bold" />-->
+<!--	</RelativeLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_third.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\row_third.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bookmarks.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\bookmarks.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_bookmark.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\add_bookmark.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\paragraph.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\paragraph.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_first.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\row_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\menu_list_item.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\menu_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acronyms.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\acronyms.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_about.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_group.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_search_help.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_search_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_searchable.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_second.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\row_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_simple_list_item.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\my_simple_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_trying.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_trying.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\expandable_list_item.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\expandable_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\note.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hascamot.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\hascamot.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\inner_search.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\inner_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_alert_dialog.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\my_alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\text_main.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\text_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\auto_scroll.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\auto_scroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\language.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\language.xml"
+    },
+    {
+        "merged": "C:\\Users\\test\\mikrey_kodesh\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\text_main_actionbar_layout.xml",
+        "source": "C:\\Users\\test\\mikrey_kodesh\\app\\src\\main\\res\\layout\\text_main_actionbar_layout.xml"
+    }
+]

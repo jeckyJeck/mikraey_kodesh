@@ -1,0 +1,88 @@
+/* alef-regular - latin_hebrew */
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/alef-v21-latin_hebrew-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/alef-v21-latin_hebrew-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/alef-v21-latin_hebrew-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/alef-v21-latin_hebrew-regular.woff') format('woff'), /* Modern Browsers */
+       url('file:///android_asset/fonts/alef-v21-latin_hebrew-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/alef-v21-latin_hebrew-regular.svg#Alef') format('svg'); /* Legacy iOS */
+}
+/* alef-700 - latin_hebrew */
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/alef-v21-latin_hebrew-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/alef-v21-latin_hebrew-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/alef-v21-latin_hebrew-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/alef-v21-latin_hebrew-700.woff') format('woff'), /* Modern Browsers */
+       url('file:///android_asset/fonts/alef-v21-latin_hebrew-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/alef-v21-latin_hebrew-700.svg#Alef') format('svg'); /* Legacy iOS */
+}
+/*hadassah_fridlander*/
+@font-face {
+   font-family: "Hadassah Friedlaender";
+   src: local(''),
+        url('file:///android_asset/fonts/hadassah_fridlander.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/*hadassah_fridlander_thin*/
+@font-face {
+   font-family: "Hadassah Friedlaender Thin";
+   src: local(''),
+        url('file:///android_asset/fonts/Hadassah_Fridlander_Thin.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/*hadassah_fridlander_medium*/
+@font-face {
+   font-family: "Hadassah Friedlaender Medium";
+   src: local(''),
+        url('file:///android_asset/fonts/Hadassah_Fridlander_Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/*hadassah_fridlander_bold*/
+@font-face {
+   font-family: "Hadassah Friedlaender Bold";
+   src: local(''),
+        url('file:///android_asset/fonts/Hadassah_Fridlander_Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+h1{
+     font-family: Alef, sans-serif;
+}
+h2{
+     font-family: Alef, sans-serif;
+}
+h3{
+     font-family: Hadassah Friedlaender;
+     font-size: 300%;
+     font-weight:700;
+     text-align:center;
+     padding:50% 0;
+     
+}
+button{
+     background-color: transparent;
+     border: none;
+     color: #008CBA;
+     font-size: 70%;
+     vertical-align: text-top;
+     padding: 0px;	
+}
+p.note{
+    font-family: Alef, sans-serif;
+}
+.notes{
+     background-color: #E7E7E7;
+}
+p{
+    font-family: Alef, sans-serif;
+    text-align: jastify;
+}
+
+
+
+
+
+    

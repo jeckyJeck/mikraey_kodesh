@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="searchBtn" type="id"></item>
+    <item name="action_auto_scrool" type="id"></item>
+    <item name="hearAndReadBtn" type="id" />
+    <item name="hearBtn" type="id" />
+    <item name="checkBoxNotesState" type="id" />
+
+</resources>

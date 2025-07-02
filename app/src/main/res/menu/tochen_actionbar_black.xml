@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"  >
+
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/outline_search_white_24"
+          android:title="@string/action_search"
+          app:showAsAction="always"/>
+    <item android:id="@+id/action_bookmarks"
+          android:icon="@drawable/outline_bookmarks_white_24"
+          android:title="@string/checklist_icon"
+          app:showAsAction="always"/>
+    <item android:id="@+id/action_place"
+          android:icon="@drawable/outline_person_pin_circle_white_24"
+          android:title="@string/action_place"
+          app:showAsAction="always"/>
+    <item android:id="@+id/action_config"
+          android:icon="@drawable/outline_more_vert_white_24"
+          android:title="@string/action_config"
+          app:showAsAction="always"/>
+    
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--drawable name="pressed_color">#90A3A2</drawable-->
+    <drawable name="pressed_color">#ABAEB0</drawable>
+    <drawable name="default_color">#ffffff</drawable>
+    <color name="app_theme_color">#EEEBEB</color>
+    <drawable name="gray">#868484</drawable>
+    <drawable name="app_theme_colorq">@drawable/background_book_dark</drawable>
+    <color name="mLight">#80ffffff</color>
+    <color name="mWebview2Dark">#353535</color>
+    <color name="mWebview2Light">#E7E7E7</color>
+
+
+
+</resources>

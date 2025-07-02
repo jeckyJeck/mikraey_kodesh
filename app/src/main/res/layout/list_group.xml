@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLlistGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="?lBackground">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ListHeaderIconPlay"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:src="@drawable/outline_my_location_black_24"-->
+<!--            android:tint="#4169E1"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="22sp"
+            android:textColor="?mTextColorMain"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+</LinearLayout>

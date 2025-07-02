@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="bookMarkThemeLight" parent="android:Theme.Dialog">
+        <item name="android:headerBackground">@color/cardview_light_background</item>
+        <item name="android:windowTitleBackgroundStyle">@color/cardview_light_background</item>
+        <item name="android:background">@color/app_theme_color</item>
+        <item name="title">"סימניות"</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="headerLayout">@color/cardview_light_background</item>
+    </style>
+    <style name="bookMarkThemeDark" parent="android:Theme.Dialog">
+        <item name="android:headerBackground">@color/cardview_light_background</item>
+        <item name="android:windowTitleBackgroundStyle">@color/cardview_light_background</item>
+        <item name="android:background">@color/cardview_dark_background</item>
+        <item name="title">"סימניות"</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="headerLayout">@color/cardview_light_background</item>
+    </style>
+
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- change actionBar color-->
+        <item name="colorPrimary">@color/cardview_dark_background</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="lBackground">#000000</item>
+        <item name="mTextColorMain">#ffffff</item>
+        <item name="mTextColorSecond">@color/mLight</item>
+        <item name="mLightColor">#40ffffff</item>
+        <item name="android:popupBackground">@color/cardview_dark_background</item>
+        <item name="android:popupMenuStyle">@style/darkPopupMenu</item>
+        <item name="mIcSearch">@drawable/outline_search_white_24</item>
+        <item name="mIcAddBookmark">@drawable/outline_bookmark_add_white_24</item>
+        <item name="mIcConfig">@drawable/outline_more_vert_white_24</item>
+        <item name="mIcBookmarks">@drawable/outline_bookmarks_white_24</item>
+        <item name="mIcLastLocation">@drawable/outline_person_pin_circle_white_24</item>
+        <item name="mWebview2Color">@color/mWebview2Dark</item>
+        <item name="drawerArrowStyle">@style/myDrawerArrowToggle</item>
+    </style>
+
+    <style name="myDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#ffffff</item>
+    </style>
+    <style name="myDrawerArrowToggleLight" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#000000</item>
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- change actionBar color-->
+        <item name="colorPrimary">@color/app_theme_color</item>
+        <item name="lBackground">#ffffff</item>
+        <item name="mTextColorMain">#000000</item>
+        <item name="mTextColorSecond">@color/cardview_dark_background</item>
+        <item name="mLightColor">#20424242</item>
+        <item name="background">@color/app_theme_color</item>
+        <item name="mIcSearch">@drawable/outline_search_black_24</item>
+        <item name="mIcAddBookmark">@drawable/outline_bookmark_add_black_24</item>
+        <item name="mIcConfig">@drawable/outline_more_vert_black_24</item>
+        <item name="mIcBookmarks">@drawable/outline_bookmarks_black_24</item>
+        <item name="mIcLastLocation">@drawable/outline_person_pin_circle_black_24</item>
+        <item name="mWebview2Color">@color/mWebview2Dark</item>
+        <item name="drawerArrowStyle">@style/myDrawerArrowToggleLight</item>
+    </style>
+
+    <style name="darkPopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">#303030</item>
+        <item name="android:popupElevation" tools:targetApi="lollipop">1dp</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="mDialog" parent="android:Theme.Holo.Dialog">
+
+    </style>
+<!--    <style name="dialog" parent="@android:style/Theme.Dialog">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        -->
+<!--    </style>-->
+
+</resources>

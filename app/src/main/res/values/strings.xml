@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="separateTextView">------------------------------------------------------------------------------------הערות----------------------------------------------------------------------------------</string>
+    <string name="app_name">מקראי קודש</string>
+    <string name="main_activity_name">תוכן</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="action_config">config</string>
+    <string name="action_place">place</string>
+    <string name="checklist_icon">checklist</string>
+    <string name="bookmarks_icon">bookmarks</string>
+    <string name="add_bookmark_icon">add_bookmark</string>
+    <string name="title_activity_popup_sections">PopupSections</string>
+    <string name="title_activity_about">אודות</string>
+    <string name="title_activity_feedback">משוב</string>
+    <string name="title_activity_hascamot">הסכמות</string>
+    <string name="title_activity_settings">הגדרות</string>
+    <string name="title_activity_search_help">SearchHelp</string>
+    <string name="search_hint">חיפוש בכל הספרים</string>
+    <string name="title_activity_searchable">חיפוש</string>
+    <string name="NextPage">NextPage</string>
+    <string name="PreviousPage">PreviousPage</string>
+    <string name="Next">Next</string>
+    <string name="Previous">Previous</string>
+    <string name="FullScreen">FullScreen</string>
+    <string name="Chapters">Chapters</string>
+    <string name="title_activity_bookmarks">BookmarksActivity</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+    <string name="version"><b><u>גירסא 4</u></b></string>
+    <string name="title_activity_audio">Audio</string>
+    <string name="title_activity_sim">sim</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_switch_modes">switchModes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="link_to_store"><a href="https://www.atereet.co.il/product/%D7%9E%D7%A7%D7%A8%D7%90%D7%99-%D7%A7%D7%95%D7%93%D7%A9-%D7%A1%D7%98-8-%D7%A1%D7%A4%D7%A8%D7%99%D7%9D/">לרכישה מקוונת של סדרת מקראי קודש</a></string>
+    <string name="yakov_link">מפתחים: <u>יעקב כהנא</u></string>
+    <string name="rafraph_link">שלד האפליקציה: רפאל ג\'אן <u>rafraph@gmail.com</u></string>
+    <string name="yoav_link">, <u>יואב שורץ</u></string>
+    <string name="title_activity_text_main1">text_main1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="nispachim_head"><u>נספחים:</u></string>
+    <string name="home">home</string>
+    <string-array name="speed_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="speed_audio_array">
+        <item>"x2</item>
+        <item>"x1.5"</item>
+        <item>"x1"</item>
+        <item>"x0.75"</item>
+    </string-array>
+</resources>

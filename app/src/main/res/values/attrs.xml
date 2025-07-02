@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="SplitView">
+        <attr name="handle" format="reference" />
+        <attr name="primaryContent" format="reference" />
+        <attr name="secondaryContent" format="reference" />
+    </declare-styleable>
+    <attr name="appColor" format="reference|color"/>
+    <attr name="lBackground" format="reference|color"/>
+    <attr name="mTextColorMain" format="reference|color"/>
+    <attr name="mTextColorSecond" format="reference|color"/>
+    <attr name="mLightColor" format="reference|color"/>
+    <attr name="mIcSearch" format="reference"/>
+    <attr name="mIcAddBookmark" format="reference"/>
+    <attr name="mIcConfig" format="reference"/>
+    <attr name="mIcBookmarks" format="reference"/>
+    <attr name="mIcLastLocation" format="reference"/>
+    <attr name="mWebview2Color" format="reference"/>
+
+
+</resources>

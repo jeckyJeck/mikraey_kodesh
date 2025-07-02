@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item android:id="@+id/exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/increaseFont"
+        android:icon="@drawable/outline_text_increase_black_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/decreaseFont"
+        android:icon="@drawable/outline_text_decrease_black_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/ibNext"
+        android:icon="@drawable/outline_chevron_left_black_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/ibPrevious"
+        android:icon="@drawable/outline_navigate_next_black_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+    <item android:id="@+id/ibChapters"
+        android:icon="@drawable/outline_toc_black_24"
+        android:title="@string/home"
+        app:showAsAction="always"/>
+
+</menu>

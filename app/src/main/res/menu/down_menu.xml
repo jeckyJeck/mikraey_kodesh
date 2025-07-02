@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<!--
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/outline_keyboard_double_arrow_down_black_36"
+        android:title="הפעל"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/outline_stop_circle_black_24"
+        android:title="עצור"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/autoScrollSpeed"
+        android:icon="@drawable/outline_speed_black_48"
+        android:title="קבע מהירות"
+        app:showAsAction="always" />
+-->
+
+</menu>

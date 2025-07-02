@@ -1,0 +1,115 @@
+com/rafraph/mikraey_kodesh/PlaybackStatus.java
+ com.rafraph.mikraey_kodesh.PlaybackStatus
+com/rafraph/mikraey_kodesh/myAudio.java
+ com.rafraph.mikraey_kodesh.myAudio
+ com.rafraph.mikraey_kodesh.myAudio$1
+ com.rafraph.mikraey_kodesh.myAudio$10
+ com.rafraph.mikraey_kodesh.myAudio$11
+ com.rafraph.mikraey_kodesh.myAudio$12
+ com.rafraph.mikraey_kodesh.myAudio$13
+ com.rafraph.mikraey_kodesh.myAudio$14
+ com.rafraph.mikraey_kodesh.myAudio$14$1
+ com.rafraph.mikraey_kodesh.myAudio$14$2
+ com.rafraph.mikraey_kodesh.myAudio$15
+ com.rafraph.mikraey_kodesh.myAudio$16
+ com.rafraph.mikraey_kodesh.myAudio$17
+ com.rafraph.mikraey_kodesh.myAudio$18
+ com.rafraph.mikraey_kodesh.myAudio$19
+ com.rafraph.mikraey_kodesh.myAudio$2
+ com.rafraph.mikraey_kodesh.myAudio$2$1
+ com.rafraph.mikraey_kodesh.myAudio$20
+ com.rafraph.mikraey_kodesh.myAudio$21
+ com.rafraph.mikraey_kodesh.myAudio$22
+ com.rafraph.mikraey_kodesh.myAudio$23
+ com.rafraph.mikraey_kodesh.myAudio$24
+ com.rafraph.mikraey_kodesh.myAudio$25
+ com.rafraph.mikraey_kodesh.myAudio$26
+ com.rafraph.mikraey_kodesh.myAudio$27
+ com.rafraph.mikraey_kodesh.myAudio$3
+ com.rafraph.mikraey_kodesh.myAudio$4
+ com.rafraph.mikraey_kodesh.myAudio$5
+ com.rafraph.mikraey_kodesh.myAudio$6
+ com.rafraph.mikraey_kodesh.myAudio$7
+ com.rafraph.mikraey_kodesh.myAudio$8
+ com.rafraph.mikraey_kodesh.myAudio$9
+com/rafraph/mikraey_kodesh/SearchHelp.java
+ com.rafraph.mikraey_kodesh.SearchHelp
+com/rafraph/mikraey_kodesh/BookmarkActivity.java
+ com.rafraph.mikraey_kodesh.BookmarkActivity
+ com.rafraph.mikraey_kodesh.BookmarkActivity$1
+ com.rafraph.mikraey_kodesh.BookmarkActivity$2
+ com.rafraph.mikraey_kodesh.BookmarkActivity$2$1
+ com.rafraph.mikraey_kodesh.BookmarkActivity$2$1$1
+ com.rafraph.mikraey_kodesh.BookmarkActivity$2$2
+ com.rafraph.mikraey_kodesh.BookmarkActivity$2$2$1
+com/rafraph/mikraey_kodesh/CustomSpinnerAdapter.java
+ com.rafraph.mikraey_kodesh.CustomSpinnerAdapter
+com/rafraph/mikraey_kodesh/textMain.java
+ com.rafraph.mikraey_kodesh.textMain
+ com.rafraph.mikraey_kodesh.textMain$1
+ com.rafraph.mikraey_kodesh.textMain$10
+ com.rafraph.mikraey_kodesh.textMain$11
+ com.rafraph.mikraey_kodesh.textMain$12
+ com.rafraph.mikraey_kodesh.textMain$13
+ com.rafraph.mikraey_kodesh.textMain$14
+ com.rafraph.mikraey_kodesh.textMain$15
+ com.rafraph.mikraey_kodesh.textMain$16
+ com.rafraph.mikraey_kodesh.textMain$17
+ com.rafraph.mikraey_kodesh.textMain$18
+ com.rafraph.mikraey_kodesh.textMain$19
+ com.rafraph.mikraey_kodesh.textMain$2
+ com.rafraph.mikraey_kodesh.textMain$20
+ com.rafraph.mikraey_kodesh.textMain$21
+ com.rafraph.mikraey_kodesh.textMain$3
+ com.rafraph.mikraey_kodesh.textMain$3$1
+ com.rafraph.mikraey_kodesh.textMain$4
+ com.rafraph.mikraey_kodesh.textMain$5
+ com.rafraph.mikraey_kodesh.textMain$6
+ com.rafraph.mikraey_kodesh.textMain$7
+ com.rafraph.mikraey_kodesh.textMain$8
+ com.rafraph.mikraey_kodesh.textMain$9
+ com.rafraph.mikraey_kodesh.textMain$MyWebViewClient
+com/rafraph/mikraey_kodesh/Feedback.java
+ com.rafraph.mikraey_kodesh.Feedback
+com/rafraph/mikraey_kodesh/About.java
+ com.rafraph.mikraey_kodesh.About
+com/rafraph/mikraey_kodesh/BuildConfig.java
+ com.rafraph.mikraey_kodesh.BuildConfig
+com/rafraph/mikraey_kodesh/MediaPlayerService.java
+ com.rafraph.mikraey_kodesh.MediaPlayerService
+ com.rafraph.mikraey_kodesh.MediaPlayerService$1
+ com.rafraph.mikraey_kodesh.MediaPlayerService$10
+ com.rafraph.mikraey_kodesh.MediaPlayerService$11
+ com.rafraph.mikraey_kodesh.MediaPlayerService$12
+ com.rafraph.mikraey_kodesh.MediaPlayerService$2
+ com.rafraph.mikraey_kodesh.MediaPlayerService$3
+ com.rafraph.mikraey_kodesh.MediaPlayerService$4
+ com.rafraph.mikraey_kodesh.MediaPlayerService$5
+ com.rafraph.mikraey_kodesh.MediaPlayerService$6
+ com.rafraph.mikraey_kodesh.MediaPlayerService$7
+ com.rafraph.mikraey_kodesh.MediaPlayerService$8
+ com.rafraph.mikraey_kodesh.MediaPlayerService$9
+ com.rafraph.mikraey_kodesh.MediaPlayerService$LocalBinder
+com/rafraph/mikraey_kodesh/Settings.java
+ com.rafraph.mikraey_kodesh.Settings
+com/rafraph/mikraey_kodesh/Splash.java
+ com.rafraph.mikraey_kodesh.Splash
+ com.rafraph.mikraey_kodesh.Splash$1
+com/rafraph/mikraey_kodesh/Menu.java
+ com.rafraph.mikraey_kodesh.Menu
+com/rafraph/mikraey_kodesh/MainActivity.java
+ com.rafraph.mikraey_kodesh.MainActivity
+ com.rafraph.mikraey_kodesh.MainActivity$1
+ com.rafraph.mikraey_kodesh.MainActivity$2
+ com.rafraph.mikraey_kodesh.MainActivity$3
+ com.rafraph.mikraey_kodesh.MainActivity$4
+com/rafraph/mikraey_kodesh/SearchableActivity.java
+ com.rafraph.mikraey_kodesh.SearchableActivity
+ com.rafraph.mikraey_kodesh.SearchableActivity$1
+ com.rafraph.mikraey_kodesh.SearchableActivity$2
+com/rafraph/mikraey_kodesh/SplitView.java
+ com.rafraph.mikraey_kodesh.SplitView
+com/rafraph/mikraey_kodesh/switch_modes.java
+ com.rafraph.mikraey_kodesh.switch_modes
+com/rafraph/mikraey_kodesh/ExpandableListAdapter.java
+ com.rafraph.mikraey_kodesh.ExpandableListAdapter
